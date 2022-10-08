@@ -21,10 +21,7 @@ const Navigation = () => {
           <StyledLogo>
             <StyledIcon />
             <Title>
-              <StyledLink
-                href="/"
-                rel="noreferrer"
-              >
+              <StyledLink href="/">
                 movies browser
               </StyledLink>
             </Title>
