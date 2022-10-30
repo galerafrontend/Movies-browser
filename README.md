@@ -13,12 +13,34 @@
 https://galerafrontend.github.io/Movies-browser/
 ## General info
 
+  Movies Browser is an application where you can easily browse and search for popular movies and poeple. Additionally, each movie and person has a separate page with information about the crew and cast, etc.
+
+  This project uses an API provided by [The Movie Database](https://www.themoviedb.org/). To use the API, you must create an account and generate a personal apikey. The website has very good and clear API documentation that facilitates work.
 ## How it works?
- 
+
+  1. First, wait a while for the movie/people list to load.
+  2. Then just browse movies or people until you find something that interests you.
+    You can also refine your search using the search bar. Just enter what exactly you are looking for and after a while the results will be displayed.
+  3. If you want to get detailed information about a movie/person, just click on the tile with that movie or person.
+  4. To go back to the home page, click on the website logo on the left side of the navigation bar.
 ## Technologies/Conventions
 - project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- React
+- Grid/FlexBox
+- Styled Components
+- media queries
+- React hooks
+- React-Redux
+- @reduxjs/toolkit
+- Redux-Saga
+- React-Router
+- axios
+- Styled Normalize
 
 ## Authors
+- [Karol Galera](https://github.com/galerafrontend)
+- [Wojciech Leksza](https://github.com/wojciech-leksza)
+- [Nazar Bychyk](https://github.com/Ziko225)
 
 ## Available Scripts
 
