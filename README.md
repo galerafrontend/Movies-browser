@@ -16,6 +16,23 @@ https://galerafrontend.github.io/Movies-browser/
   Movies Browser is an application where you can easily browse and search for popular movies and poeple. Additionally, each movie and person has a separate page with information about the crew and cast, etc.
 
   This project uses an API provided by [The Movie Database](https://www.themoviedb.org/). To use the API, you must create an account and generate a personal apikey. The website has very good and clear API documentation that facilitates work.
+  
+After generating the api key you should either replace the const in the src/core/configAPI.js file like this:
+
+from
+ ```
+  export const api_key = myApiKey;
+ ```
+to
+ ```
+ export const api_key = //yours api key here
+ ```
+ or you should create new file api_key.js in src/core like this:
+ ```
+const myAPIKey = "//yours api key here";
+
+export default myApiKey;
+```
 ## How it works?
 
   1. First, wait a while for the movie/people list to load.
